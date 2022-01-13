@@ -6,4 +6,4 @@ import {readFile} from 'fs/promises'
    const result = readFile(new URL ('app.mjs', import.meta.url), 'utf-8')  
 .catch (e =>{
     console.log("Yes we know there is can error, but carry on")
-}) 
+})  
